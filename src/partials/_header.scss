@@ -1,0 +1,71 @@
+/* Site header */
+#site_header {
+    color:  $color_primary;
+    .container {
+        .navbar {
+            @include display_flex;
+            padding: 1.5rem 0 0.5rem;
+            border-bottom: 1px solid $color_primary;
+            .menu {
+                display: flex;
+                align-items: center;
+                li{
+                    list-style: none;
+                    padding: 0 0.5rem;
+                    a {
+                        color: $color_primary;
+                        text-decoration: none;
+                        font-size: small;
+                    }
+                    .sign_google {
+                        display: flex;
+                        color: $color_sign;
+                        padding: 0.5rem;
+                        border-radius: 5px;
+                        border: 1px solid $color_sign;
+                        img {
+                            width: 17px;
+                            vertical-align: middle;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .jumb {
+            .jumb_text {
+                width: 50%;
+                padding: 3rem 0;
+                h1 {
+                    font-size: 50px;
+                    line-height: 75px;
+                }
+                p {
+                    font-size: 20px;
+                    padding: 0.5rem 0;
+                    line-height: 30px;
+                }
+                .buttons_header {
+                    font-size: small;
+                    padding: 1rem 0;
+                    a {
+                        background-color: $color_sign;
+                        color: white;
+                        padding: 0.3rem 0.5rem;
+                        border-radius: 5px;
+                        img {
+                            width: 20px;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+                a {
+                    color: $color_primary;
+                    text-decoration: none;
+                    font-size: small;
+                }
+
+            }
+        }
+    }
+}

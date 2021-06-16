@@ -1,0 +1,7 @@
+@mixin display_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+$color_primary : #58402C;
+$color_sign: #2C4792;

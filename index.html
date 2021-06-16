@@ -8,14 +8,41 @@
     <link rel="stylesheet" href="./dist/css/app.css">
 </head>
 <body>
-    <header id="site_header">
-        <div class="container">
-            <nav>
-                <img src="./dist/img/logo.svg" alt="logo">
-            </nav>
-        </div>
+    <div id="app">
+        <header id="site_header">
+            <div class="container">
+                <!-- navbar -->
+                <nav class="navbar">
+                    <img src="./dist/img/logo.svg" alt="logo">
+                    <ul class="menu">
+                        <li><a href="#">Solutions <i class="fas fa-chevron-down"></i></a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Sign in</a></li>
+                        <li><a class="sign_google" href="#"> <img src="./dist/img/google-logo.svg" alt=""> Sign up</a></li>
+                    </ul>
+                </nav>
 
-    </header>
-    <script src="./dist/js/app.js"></script>
+                <section class="jumb">
+                    <div class="jumb_text">
+                        <h1>Understand, recognize and develop your people</h1>
+                        <p>Teambit helps teams create a high performing culture with regular feesback.</p>
+                        <div class="buttons_header" href="#">
+                            <a class="sign google">
+                                <img src="./dist/img/google-logo.svg" alt="logo google">
+                                Sign up with Google</a> or
+                            <a class="sign_slack" href="#">
+                                <img src="./dist/img/slack-logo.svg" alt="logo slack">
+                                Sign up with Slack</a>
+                        </div>
+                        <a href="#">or use your email address <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </section>
+            </div>
+            
+        </header>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <script src="./dist/js/app.js"></script>
 </body>
 </html>
