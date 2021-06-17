@@ -1,0 +1,34 @@
+/* Site main */
+#site_main {
+    color: $color_primary;
+    .bg_orange {
+        background-color: #FFE7D2;
+        .sec_processes {
+            h3 {
+                text-align: center;
+                width: 400px;
+                margin: auto;
+                line-height: 40px;
+                letter-spacing: 1px;
+                word-spacing: 1.5px;
+            }
+            .processes {
+                @include display_flex;
+                .singular_process {
+                    width: calc(100% / 3.8);
+                    padding: 2rem 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    img {
+                        width: 200px;
+                        height: 140px;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
