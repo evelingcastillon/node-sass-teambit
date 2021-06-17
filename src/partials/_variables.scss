@@ -9,5 +9,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@mixin display_flex_at_start {
+    display: flex;
+    align-items: flex-start;
+}
+@mixin display_flex_at_end {
+    display: flex;
+    flex-direction: row-reverse;
+}
 $color_primary : #58402C;
 $color_sign: #2C4792;
